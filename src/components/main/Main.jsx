@@ -13,6 +13,12 @@ const Main = () => {
     input,
   } = useContext(Context);
 
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      onSent();  
+    }
+  };
+
   return (
     <div className="main">
       <div className="nav">
@@ -22,7 +28,7 @@ const Main = () => {
       <div className="main-container">
         {!showResult ? (
           <>
-            <div className="greet">
+            <div className="greet" style={{marginTop:"-2rem"}}>
               <p>
                 <span>Hello, Dev</span>
                 <p>How can I help you today?</p>
@@ -78,6 +84,7 @@ const Main = () => {
               id=""
               placeholder="Enter something to search.."
               onChange={(e) => setInput(e.target.value)}
+              onKeyDown={handleKeyDown}
               value={input}
             />
             <div>
