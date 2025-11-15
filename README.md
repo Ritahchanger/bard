@@ -17,6 +17,22 @@ To get started with the BirdAI project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Ritahchanger/birdai.git
+   git clone https://github.com/Ritahchanger/bard.git
+   ```
 
-## RUNNING PROCEDURE
+2. **installing node_packages**
+   
+   ```bash
+   npm i install
+   ```
+
+4. **running the application**
+   ```bash
+   cd bard 
+   npm run start 
+   ```
+5. **accessing the application**
+   ```bash
+   http://localhost:3000/
+   ```
+   
