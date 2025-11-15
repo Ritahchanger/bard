@@ -20,7 +20,7 @@ const apiKey = process.env.REACT_APP_API_URL_FOR_BARD;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
-  model: "gemini-1.5-flash",
+  model: "gemini-2.0-flash",
 });
 
 const generationConfig = {
