@@ -14,6 +14,9 @@
 
 To get started with the BirdAI project, follow these steps:
 
+
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Ritahchanger/birdai.git
+
+## RUNNING PROCEDURE
