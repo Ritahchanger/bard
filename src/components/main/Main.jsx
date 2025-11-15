@@ -15,20 +15,22 @@ const Main = () => {
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
-      onSent();  
+      onSent();
     }
   };
 
   return (
     <div className="main">
       <div className="nav">
-        <p>Gemini</p>
+        <p className="gemini-title">
+          ANDEL<span>.</span>
+        </p>
         <img src={assets.user_icon} alt="" />
       </div>
       <div className="main-container">
         {!showResult ? (
           <>
-            <div className="greet" style={{marginTop:"-2rem"}}>
+            <div className="greet" style={{ marginTop: "-2rem" }}>
               <p>
                 <span>Hello, Dev</span>
                 <p>How can I help you today?</p>
@@ -101,8 +103,8 @@ const Main = () => {
             </div>
           </div>
           <p className="bottom-info">
-            Gemini may display inaccurate info, including about people, so
-            double-check its responses. Your privacy & Gemini Apps
+            ANDEL may display inaccurate info, including about people, so
+            double-check its responses. Your privacy & ANDEL Apps
           </p>
         </div>
       </div>

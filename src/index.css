@@ -11,6 +11,20 @@
 }
 
 
+.gemini-title{
+  font-weight:800;
+}
+
+.gemini-title span{
+  
+  color:#ff004f;
+
+  margin-left:3px;
+
+  font-size:2rem;
+
+}
+
 
 @keyframes fadeIn{
 
